@@ -1,0 +1,17 @@
+{
+  "name": "murphey_animation",
+  "version": "1.0.0",
+  "description": "Murphey Animation - A lightweight JavaScript animation library (Open Source)",
+  "main": "dist/murphey.js",
+  "scripts": {
+    "build": "npm run minify",
+    "minify": "uglifyjs src/murphey.js -o dist/murphey.min.js --compress --mangle",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": ["animation", "javascript", "murphey", "css", "js"],
+  "author": "Technical Mickey",
+  "license": "MIT",
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  }
+}
